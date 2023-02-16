@@ -14,10 +14,29 @@ class Livre:
         self._auteur = p_auteur
         self._prix = p_prix
 
-
+#propriété titre
     def _get_titre(self):
         return self._titre
 
     def _set_titre(self, v):
         self._titre = v
     Titre = property(_get_titre, _set_titre)
+#propriété auteur
+
+    def _get_auteur(self):
+        return self._auteur
+
+    def _set_auteur(self, v):
+        self._auteur = v
+    Auteur = property(_get_auteur, _set_auteur)
+#propriété prix
+    def _get_prix(self):
+        return self._prix
+
+    def _set_prix(self, v):
+        self._prix = v
+    Prix = property(_get_prix, _set_prix)
+
+
+#AFFICHER
+
